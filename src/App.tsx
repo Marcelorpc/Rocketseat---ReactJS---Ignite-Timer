@@ -1,11 +1,14 @@
 import Button from "./components/Button"
+import { GlobalStyle } from "./styles/global"
 
 function App() {
   return (
-    <div>
-      <Button backgroundColor="primary"></Button>
-      <Button backgroundColor="danger"></Button>
-    </div>
+    <>
+      <Button backgroundColor="primary" />
+      <Button backgroundColor="danger" />
+
+      <GlobalStyle />
+    </>
   )
 }
 
