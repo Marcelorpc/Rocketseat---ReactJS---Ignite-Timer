@@ -6,8 +6,8 @@ import { defaultTheme } from "./styles/default"
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Button backgroundColor="primary" />
-      <Button backgroundColor="danger" />
+      <Button />
+      <Button />
 
       <GlobalStyle />
     </ThemeProvider>
